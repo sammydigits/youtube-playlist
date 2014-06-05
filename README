@@ -2,12 +2,11 @@ This jQuery plugin displays videos in a YouTube playlist.
 
 Usage:
 
-
-        jQuery(document).ready( function($) {
-      		$(".ytplaylist").ytplaylist({
-      			playlist : 'PLg7s6cbtAD17uAwaZwiykDci_q3te3CTY',
-      			complete : function() { 
-      			  console.log('complete'); 
-      			}
-      		});
-    	  });
+    jQuery(document).ready( function($) {
+        $(".ytplaylist").ytplaylist({
+            playlist : 'PLg7s6cbtAD17uAwaZwiykDci_q3te3CTY',
+            complete : function() { 
+                console.log('complete'); 
+            }
+        });
+    });
